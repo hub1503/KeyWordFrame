@@ -1,0 +1,21 @@
+steps:
+    - step:
+          desc: 打开浏览器
+          keyWord: open
+          param: chrome
+          element:
+          result:
+    - step:
+          desc: 跳转至百度
+          keyWord: navigate
+          param: http://www.baidu.com
+          element:
+          result:
+    - step:
+        desc: 输入搜索数据
+        keyWord: input
+        param: hello
+        element: id:kw
+        result:
+
+
